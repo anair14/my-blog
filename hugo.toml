@@ -1,0 +1,30 @@
+baseURL = "https://anair14.github.io/blog/"
+languageCode = "en-us"
+title = "blog"
+theme = "hugo-coder"
+
+[params]
+  author = "ashwin nair"
+  info = "Software Developer and Human"
+  description = "Welcome to my blog."
+  avatarURL = "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/berserk-best-panels-guts-and-eclipse.jpg"
+  colorScheme = "auto" # Light/Dark Mode
+  hideColorSchemeToggle = false
+  enableGitHubCorner = true
+  enableSocial = true
+  enableThemeToggle = true
+  enableComments = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
